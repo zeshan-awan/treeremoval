@@ -61,20 +61,6 @@ export function Seo({ title, description, canonical, faqItems }: SeoProps) {
           postalCode: "27260",
           addressCountry: "US"
         }}
-        areaServed={[
-          {
-            type: "City",
-            name: "High Point"
-          },
-          {
-            type: "City",
-            name: "Greensboro"
-          },
-          {
-            type: "City",
-            name: "Winston-Salem"
-          }
-        ]}
         openingHours={[
           {
             opens: "00:00",
